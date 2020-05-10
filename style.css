@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  margin: 0 300px;
+  background-color: #040303;
+}
+.main-nav {
+  padding: 10px 0;
+}
+.main-nav a {
+  border: 2px solid white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #009fb7;
+}
+a {
+  text-decoration: none;
+  color: #009fb7;
+}
+.header {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.header-title {
+  position: absolute;
+  color: #fff05a;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 10px 5px 10px black;
+}
+.header-image {
+  object-fit: cover;
+  width: 100%;
+  max-height: 400px;
+}
+.section-title {
+  color: #eea243;
+}
+.article-title {
+  color: #fff05a;
+}
+section {
+  margin: 50px 100px;
+}
+p {
+  color: white;
+}
