@@ -5,7 +5,7 @@ console.log(
 
 const jsText = document.querySelector(".footer__text--js");
 console.log("jstext", jsText);
-jsText.innerHTML = "Strona stworzona w ramach kursu WTF Maćka Korsna.";
+jsText.innerHTML = "Strona stworzona w ramach kursu WTF Maćka Korsana.";
 
 const headerTitle = document.querySelector(".header__title");
 console.log(headerTitle)
