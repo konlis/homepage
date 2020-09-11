@@ -63,7 +63,7 @@ section {
   text-align: left;
 }
 article {
-  display: inline-block;
+  display: block;
   padding: 0 25px;
 }
 article p {
