@@ -16,13 +16,13 @@
             <a href='notatki.html'>Notatki</a>
         </nav>
     </header>
-    <main>
-        <header class='header'>
+    <header class='header'>
             <div class='header__image--shadow'>
                 <img class='header__image header__image--bottom' src='image/header-notes.jpg' alt='Notatki'>
             </div>
             <h1 class='header__title'>Notatki Frontendowca</h1>
-        </header>
+    </header>
+    <main>
         <section>
             <h2 class='section__title'>Tydzień 1</h2>
             <article>
@@ -63,6 +63,111 @@
                 <img class='html_bem' src='image/05-bem-naming-structure.svg'>
             </article>
             <h2 class='section__title'>Tydzień 5</h2>
+            <article>
+                <h3 class='article__title'>Javascript: funkcje.</h3>
+                <p>DRY - don't repeat yourself</p>
+                <p>Fat arrow functions:<br>
+                const calculate = (myNumber) => { <br>
+                myNumber = myNumber + 3; <br>
+                return myNumber*7;<br>
+                }<br>
+                calculate(2); //35</p>
+                <p>Normal functions: <br>
+                const calculate = myNumber => (myNumber+3)*7 <br>
+                calculate(2)//35</p>
+            </article>
+            <article>
+                <h3 class='article__title'>Javascript: obiekty.</h3>
+                <p>Nasz świat jest obiektowy</p>
+            </article>
+            <article>
+                <h3 class='article__title'>Javascript: Immutability.</h3>
+                <p></p>
+            </article>
+            <article>
+                <h3 class='article__title'>Debugowanie, czyli szukanie błędów.</h3>
+                <p>Po pierwsze sprawdź te rzeczy:
+                    odśwież przeglądarkę, sprawdź czy edytujesz właściwy plik, sprawdź czy zapisałeś plik, czy nie masz błędów w edytorze i devtoolsach, czytaj uważnie błędy,
+                    zajrzyj w zakładkę network
+                </p>
+                <p>Po drugie pogadaj z kaczką! :)</p>
+                <p>Po trzecie wygoogluj to..do roku wstecz bo odpowiedzi się aktualizują. </p>
+            </article>
+            <article>
+                <h3 class='article__title'>Listy.</h3>
+                <p>Znaczniki:</p>
+                <ul class='list'>
+                    <li class='list__item'>UL - unordered list</li>
+                    <li>OL - ordered list</li>
+                    <li>LI - list item</li>
+                    <li>DL - desription list</li>
+                    <li>DD - desription details</li>
+                    <li>DT - desription term</li>
+                    <li>TABLE - table</li>
+                    <li>TH - table head</li>
+                    <li>TR - table row</li>
+                    <li>THEAD - table head</li>
+                    <li>TBODY - table body</li>
+                    <li>TD - table data (cell)</li>
+                </ul>
+            </article>
+            <article>
+                <h3 class='article__title'>Flexbox.</h3>
+                <p>Żeby włączyć flexboxa musimy użyć - <b>display: flex;</b> później dodajemy któryś z atrybutów:</p>
+                <ul>
+                    <li>justify-content - wyrównanie w osi pionowej</li>
+                        <ul>
+                            <li>flex-start</li>
+                            <li>flex-end</li>
+                            <li>center</li>
+                            <li>space-between</li>
+                            <li>space-around</li>
+                        </ul>
+                    <li>align-items - wyrównianie w osi poziomej</li>
+                        <ul>
+                            <li>flex-start</li>
+                            <li>flex-end</li>
+                            <li>center</li>
+                            <li>baseline</li>
+                            <li>stretch</li>
+                        </ul>
+                    <li>flex-direction - kierunek</li>
+                        <ul>
+                            <li>row</li>
+                            <li>column</li>
+                            <li>row-reverse</li>
+                            <li>column-reverse</li>
+                        </ul>
+                    <li>order - określa kolejność elementów</li>
+                    <li>align-self - wyrównuje element wzdłuż osi poprzecznej i nadpisuje tym samym align-items</li>
+                        <ul>
+                            <li>flex-start</li>
+                            <li>flex-end</li>
+                            <li>center</li>
+                            <li>baseline</li>
+                            <li>stretch</li>
+                        </ul>
+                    <li>flex-wrap - określa czy elementy mają być ściśnięte w wierszy czy rozproszone</li>
+                        <ul>
+                            <li>nowrap</li>
+                            <li>wrap</li>
+                            <li>wrap-reverse</li>
+                        </ul>
+                    <li>flex-flow - mix flex-direction oraz flex-wrap</li>
+                    <li>align-content - wyrównuje wiersze wewnątrz kontenera gdy na osiach poprzecznych jest miejsce</li>
+                        <ul>
+                            <li>flex-start</li>
+                            <li>flex-end</li>
+                            <li>center</li>
+                            <li>space-between</li>
+                            <li>space-around</li>
+                        </ul>
+                </ul>
+            </article>
+            <article>
+                <h3 class='article__title'>Tło.</h3>
+                <a href='https://cssgradient.io/'>Przydatne narzędzie do tworzenia gradientów.</a>
+            </article>
         </section>
     </main>
     <footer>
