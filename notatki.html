@@ -9,17 +9,18 @@
 </head>
 
 <body>
-    <header id='top'>
-        <nav class='navigation'>
-            <a href='index.html'>Strona główna</a>
-            <a href='nauka.html'>Nauka</a>
-            <a href='notatki.html'>Notatki</a>
-        </nav>
-    </header>
+    <aside id="top">
+      <nav class="navigation navigation--js">
+        <a href="index.html">Strona główna</a>
+        <a href="nauka.html">Nauka</a>
+        <a href="notatki.html">Notatki</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+      <button class='hamburger hamburger--js'>MENU</button>
+    </aside>
     <header class='header'>
-            <div class='header__image--shadow'>
                 <img class='header__image header__image--bottom' src='image/header-notes.jpg' alt='Notatki'>
-            </div>
+            
             <h1 class='header__title'>Notatki Frontendowca</h1>
     </header>
     <main>
@@ -198,6 +199,7 @@
                     <li>grid-row: 2/4 - skrócona właściwość column start i end</li>
                     <li>grid-area: 1/1/3/6 - to skrócona właściwość grida - row start/column start/row end/column end</li>
                     <li>order: 5 - ustawia priorytet elementu</li>
+                    <li>grid-gap: 15px - ustawia odstęp między elementami</li>
                     
                 </ul>
                 <p>Layout:</p>
@@ -208,9 +210,11 @@
             </article>
         </section>
     </main>
+    
     <footer>
         <a href='#top'>Powrót do góry</a>
         <p>Copyright by Droga Frontendowca 2020.</p>
+        <p class="footer__text--js"></p>
     </footer>
     <script src="main.js"></script>
 </body>

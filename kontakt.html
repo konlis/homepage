@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Konrad Lis</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <aside id="top">
+      <nav class="navigation navigation--js">
+        <a href="index.html">Strona główna</a>
+        <a href="nauka.html">Nauka</a>
+        <a href="notatki.html">Notatki</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+      <button class='hamburger hamburger--js'>MENU</button>
+    </aside>
+    <header class="header">
+        <div class='header__image--shadow'></div>
+          <img
+            class="header__image"
+            src="image/header-main.jpg"
+            alt="Tęczowa klawiatura"
+          />
+          <h1 class="header__title">Napisz do Frontendowca</h1>
+        </div>
+        
+    </header>  
+    <main>
+      <section>
+        <h2 class="section__title">Formularz kontaktowy</h2>
+        <p class="section__text">
+          Cześć, jeśli jesteś zainteresowany współpracą napisz do mnie.
+        </p>
+        <form method='post' action='http://dev.cotenfrontend.pl' class='form'>
+            <p class='form__item'>
+                <label for='firstName'>Imię
+                <input
+                    required
+                    class='form__input'
+                    type='text'
+                    placeholder='Wpisz swoje imię'
+                    id='firstName'
+                    name='firstName'
+                />
+                </label>
+            </p>
+            <p>
+                <label for='lastName'>Nazwisko
+                <input
+                    required
+                    class='form__input'
+                    type='text'
+                    placeholder='Wpisz swoje nazwisko'
+                    id='lastName'
+                    name='lastName'
+                />
+                </label>
+            </p>
+            <p>
+                <label for='phone'>Telefon
+                <input
+                    required
+                    class='form__input'
+                    type='tel'
+                    placeholder='Wpisz nr telefonu'
+                    id='phone'
+                    name='phone'
+                />
+                </label>
+            </p>
+            <p>
+                <label for='email'>Nazwisko
+                <input
+                    required
+                    class='form__input'
+                    type='email'
+                    placeholder='Wpisz e-mail'
+                    id='email'
+                    name='email'
+                />
+                </label>
+            </p>
+            <fieldset>
+                <legend>Adres</legend>
+                <p>
+                    <label for='city'>Miejscowość
+                    <input
+                        class='form__input'
+                        type='text'
+                        placeholder='Wpisz miejscowość'
+                        id='city'
+                        name='city'
+                    />
+                    </label>
+                </p>
+                <p>
+                    <label for='cityCode'>Kod pocztowy
+                    <input
+                        class='form__input'
+                        type='number'
+                        placeholder='Wpisz kod pocztowy'
+                        id='cityCode'
+                        name='cityCode'
+                    />
+                    </label>
+                </p>
+                <p>
+                    <label for='streetName'>Ulica
+                    <input
+                        class='form__input'
+                        type='text'
+                        placeholder='Wpisz ulicę'
+                        id='streetName'
+                        name='streetName'
+                    /></label>
+                </p>
+            </fieldset>
+            </p>
+            <input type='submit'value='Wyślij'/>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <a href="#top">Powrót do góry</a>
+      <p>Copyright by Droga Frontendowca 2020.</p>
+      <p class="footer__text--js"></p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
